@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/a"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="あ&#10;a"
+            android:textSize="20sp"
+
+            />
+
+        <Button
+            android:id="@+id/i"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="い&#10;i"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/u"
+            android:text="う&#10;u"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/e"
+            android:text="え&#10;e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/o"
+            android:text="お&#10;o"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <!--ka line-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/ka"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="か&#10;ka"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/ki"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="き&#10;ki"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/ku"
+            android:text="く&#10;ku"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/ke"
+            android:text="け&#10;ke"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/ko"
+            android:text="こ&#10;ko"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+    <!--sa line-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/sa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="さ&#10;sa"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/shi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="し&#10;shi"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/su"
+            android:text="す&#10;su"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/se"
+            android:text="せ&#10;se"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/so"
+            android:text="そ&#10;so"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+    <!--ta line-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/ta"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="た&#10;ta"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/chi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="ち&#10;chi"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/tsu"
+            android:text="つ&#10;tsu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/te"
+            android:text="て&#10;te"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/to"
+            android:text="と&#10;to"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+    <!--na line-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/na"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="な&#10;na"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/ni"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="に&#10;ni"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/nu"
+            android:text="ぬ&#10;nu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/ne"
+            android:text="ね&#10;ne"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/no"
+            android:text="の&#10;no"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+
+    <!--ha line-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/ha"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="は&#10;ha"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/hi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="ひ&#10;hi"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/fu"
+            android:text="ふ&#10;fu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/he"
+            android:text="へ&#10;he"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/ho"
+            android:text="ほ&#10;ho"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+    <!--ma line-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/ma"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="ま&#10;ma"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/mi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="み&#10;mi"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/mu"
+            android:text="む&#10;mu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/me"
+            android:text="め&#10;me"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/mo"
+            android:text="も&#10;mo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <!--ya line-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/ya"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="や&#10;ya"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/ii"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="(い)&#10;(i)"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/yu"
+            android:text="	ゆ&#10;yu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/ee"
+            android:text="(え)&#10;(e)"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/yo"
+            android:text="よ&#10;yo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+
+    <!--ra line-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/ra"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="ら&#10;ra"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/ri"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="り&#10;ri"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/ru"
+            android:text="る&#10;ru"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/re"
+            android:text="れ&#10;re"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/ro"
+            android:text="ろ&#10;ro"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+        <!--wa line-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/wa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:text="わ&#10;wa"
+                android:textSize="20sp"
+                />
+
+            <Button
+                android:id="@+id/iii"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:text="	(い)&#10;i"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/uuu"
+                android:text="	(う)&#10;u"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                />
+            <Button
+                android:id="@+id/eee"
+                android:text="(え)&#10;e"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                />
+            <Button
+                android:id="@+id/ooo"
+                android:text="を&#10;o"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/n"
+            android:text="ん&#10;n"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/ga"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="ガ&#10;ga"
+            android:textSize="20sp"
+
+            />
+
+        <Button
+            android:id="@+id/gi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="ぎ&#10;gi"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/gu"
+            android:text="ぐ&#10;gu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/ge"
+            android:text="げ&#10;ge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/go"
+            android:text="ご&#10;go"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

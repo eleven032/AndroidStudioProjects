@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/en_page_additional"
+        android:title="Additional Sounds"
+        />
+    <item
+        android:id="@+id/en_page_combination"
+        android:title="Combination"
+        />
+</menu>
